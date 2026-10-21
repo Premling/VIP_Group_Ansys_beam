@@ -1,0 +1,1 @@
+# VIP_Group_Ansys_beam
