@@ -1,0 +1,9 @@
+openai
+anthropic  # only needed if BEAM_LLM_PROVIDER=anthropic
+python-dotenv
+pandas
+numpy
+matplotlib
+jupyter
+# PyAnsys (ANSYS 2026 R1 Workbench connection)
+ansys-workbench-core==0.14.0

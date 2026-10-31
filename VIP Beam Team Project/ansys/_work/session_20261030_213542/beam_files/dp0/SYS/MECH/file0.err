@@ -1,0 +1,16 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       15:50:47
+
+ *** WARNING ***                         ELAPSED TIME =       5.384   TIME= 15:50:49
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =       5.411   TIME= 15:50:49
+ Material number 2 (used by element 6681) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         ELAPSED TIME =       5.413   TIME= 15:50:49
+ It has been detected that you are using reduced integration brick       
+ elements along with the PCG solver (EQSLV,PCG).  Please verify that     
+ you have multiple elements through the thickness in your model or       
+ switch to the SPARSE solver (EQSLV,SPARSE).                             

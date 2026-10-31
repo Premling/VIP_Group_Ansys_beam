@@ -1,0 +1,2 @@
+width_mm,height_mm,accepted_by,search_mesh,check_mesh,defl_search,defl_fine,defl_change_pct,stress_search,stress_fine,stress_change_pct,feasible_search,feasible_fine,defl_margin_fine,stress_margin_fine,solve_time_s,status,defl_target_met,stress_target_met,constraint_flipped,borderline,acceptance
+20.0,87.0,"A1,C1",fine,finest,0.9672183334354166,0.9691074317429078,0.19493177387915558,100.17175320385785,100.56480380499406,0.39084310441093995,True,True,0.03089256825709219,19.435196195005943,0.14120509999338537,ok,True,True,False,False,accepted

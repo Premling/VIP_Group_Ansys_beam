@@ -1,0 +1,18 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: beam demo
+# Creation date: 10/14/2026 16:59:46
+# 
+# 10/14/2026 16:59:46
+# The parameters defined in the project are:
+# ,P3 - XYPlane.H1 [mm],P4 - XYPlane.V2 [mm],P7 - Directional Deformation Minimum [mm],P6 - Equivalent Stress Maximum [MPa]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P3,P4,P7,P6
+DP 0,50,80,-0.50190496444702148,55.199065881263643
+DP 1,20,40,-9.8178882598876953,465.70912967431786
+DP 2,20,85,-1.0503444671630859,140.74238636221693
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/28/2026 15:52:06
+# 

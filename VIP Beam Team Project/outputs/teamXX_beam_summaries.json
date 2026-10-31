@@ -1,0 +1,278 @@
+[
+ {
+  "workflow": "A",
+  "run": 1,
+  "label": "ANSYS throughout",
+  "nominated_width_mm": 20.0,
+  "nominated_height_mm": 87.0,
+  "nomination_source": "llm",
+  "accepted_width_mm": 20.0,
+  "accepted_height_mm": 87.0,
+  "accepted_source": "nominated",
+  "mass_kg": 13.659,
+  "ansys_deflection_mm": 0.9672183334354166,
+  "ansys_nominal_stress_mpa": 100.17175320385785,
+  "deflection_margin_mm": 0.03278166656458337,
+  "stress_margin_mpa": 19.828246796142153,
+  "confirmation_status": "confirmed_feasible",
+  "verified_feasible": true,
+  "nominated_ansys_feasible": true,
+  "python_requests": 0,
+  "ansys_requests": 11,
+  "new_python_solves": 0,
+  "new_ansys_solves": 8,
+  "cache_hits": 3,
+  "failures": 0,
+  "invalid_replies": 0,
+  "llm_calls": 10,
+  "ansys_search_requests": 10,
+  "search_time_s": 0.48413899983279407,
+  "confirm_time_s": 0.00036090007051825523,
+  "total_time_s": 0.4844998999033123,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0,
+  "api_cost_usd": null,
+  "trigger_fraction": 0.1,
+  "trace": [
+   {
+    "iteration": 1,
+    "cum_time_s": 2.159993164241314e-05,
+    "best_verified_mass": 31.400000000000002
+   },
+   {
+    "iteration": 2,
+    "cum_time_s": 0.060528599889948964,
+    "best_verified_mass": 25.12
+   },
+   {
+    "iteration": 3,
+    "cum_time_s": 0.12098849995527416,
+    "best_verified_mass": 21.195
+   },
+   {
+    "iteration": 4,
+    "cum_time_s": 0.18149069987703115,
+    "best_verified_mass": 18.64375
+   },
+   {
+    "iteration": 5,
+    "cum_time_s": 0.241862699855119,
+    "best_verified_mass": 15.700000000000001
+   },
+   {
+    "iteration": 6,
+    "cum_time_s": 0.302173699834384,
+    "best_verified_mass": 14.13
+   },
+   {
+    "iteration": 7,
+    "cum_time_s": 0.3628227998269722,
+    "best_verified_mass": 14.13
+   },
+   {
+    "iteration": 8,
+    "cum_time_s": 0.42335399985313416,
+    "best_verified_mass": 13.816
+   },
+   {
+    "iteration": 9,
+    "cum_time_s": 0.4840678998734802,
+    "best_verified_mass": 13.659
+   },
+   {
+    "iteration": 10,
+    "cum_time_s": 0.48413899983279407,
+    "best_verified_mass": 13.659
+   },
+   {
+    "iteration": "final",
+    "cum_time_s": 0.4844998999033123,
+    "best_verified_mass": 13.659
+   }
+  ],
+  "mesh_check_acceptance": "accepted",
+  "borderline": false
+ },
+ {
+  "workflow": "B",
+  "run": 1,
+  "label": "Python search + 1 ANSYS check",
+  "nominated_width_mm": 20.0,
+  "nominated_height_mm": 86.0,
+  "nomination_source": "llm",
+  "accepted_width_mm": null,
+  "accepted_height_mm": null,
+  "accepted_source": null,
+  "mass_kg": null,
+  "ansys_deflection_mm": null,
+  "ansys_nominal_stress_mpa": null,
+  "deflection_margin_mm": null,
+  "stress_margin_mpa": null,
+  "confirmation_status": "failed_constraint",
+  "verified_feasible": false,
+  "nominated_ansys_feasible": false,
+  "verdict": "no verified feasible design",
+  "python_requests": 10,
+  "ansys_requests": 1,
+  "new_python_solves": 8,
+  "new_ansys_solves": 1,
+  "cache_hits": 2,
+  "failures": 0,
+  "invalid_replies": 0,
+  "llm_calls": 10,
+  "ansys_search_requests": 0,
+  "search_time_s": 0.00037119979970157146,
+  "confirm_time_s": 0.06081539997830987,
+  "total_time_s": 0.06118659977801144,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0,
+  "api_cost_usd": null,
+  "trigger_fraction": 0.1,
+  "trace": [
+   {
+    "iteration": 1,
+    "cum_time_s": 1.4099990949034691e-05,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 2,
+    "cum_time_s": 7.990002632141113e-05,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 3,
+    "cum_time_s": 0.00012190011329948902,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 4,
+    "cum_time_s": 0.00016300007700920105,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 5,
+    "cum_time_s": 0.00020270003005862236,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 6,
+    "cum_time_s": 0.0002389999572187662,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 7,
+    "cum_time_s": 0.0002750998828560114,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 8,
+    "cum_time_s": 0.00031039980240166187,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 9,
+    "cum_time_s": 0.00034529983531683683,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 10,
+    "cum_time_s": 0.00037119979970157146,
+    "best_verified_mass": null
+   }
+  ]
+ },
+ {
+  "workflow": "C",
+  "run": 1,
+  "label": "Adaptive selection",
+  "nominated_width_mm": 20.0,
+  "nominated_height_mm": 87.0,
+  "nomination_source": "llm",
+  "accepted_width_mm": 20.0,
+  "accepted_height_mm": 87.0,
+  "accepted_source": "nominated",
+  "mass_kg": 13.659,
+  "ansys_deflection_mm": 0.9672183334354166,
+  "ansys_nominal_stress_mpa": 100.17175320385785,
+  "deflection_margin_mm": 0.03278166656458337,
+  "stress_margin_mpa": 19.828246796142153,
+  "confirmation_status": "confirmed_feasible",
+  "verified_feasible": true,
+  "nominated_ansys_feasible": true,
+  "python_requests": 6,
+  "ansys_requests": 5,
+  "new_python_solves": 4,
+  "new_ansys_solves": 4,
+  "cache_hits": 3,
+  "failures": 0,
+  "invalid_replies": 0,
+  "llm_calls": 10,
+  "ansys_search_requests": 4,
+  "search_time_s": 0.24217780004255474,
+  "confirm_time_s": 0.00013069994747638702,
+  "total_time_s": 0.24230849999003112,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0,
+  "api_cost_usd": null,
+  "trigger_fraction": 0.1,
+  "trace": [
+   {
+    "iteration": 1,
+    "cum_time_s": 1.4699995517730713e-05,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 2,
+    "cum_time_s": 8.819997310638428e-05,
+    "best_verified_mass": null
+   },
+   {
+    "iteration": 3,
+    "cum_time_s": 0.06052509997971356,
+    "best_verified_mass": 21.195
+   },
+   {
+    "iteration": 4,
+    "cum_time_s": 0.06062090001069009,
+    "best_verified_mass": 21.195
+   },
+   {
+    "iteration": 5,
+    "cum_time_s": 0.12103759997989982,
+    "best_verified_mass": 15.700000000000001
+   },
+   {
+    "iteration": 6,
+    "cum_time_s": 0.12115220003761351,
+    "best_verified_mass": 15.700000000000001
+   },
+   {
+    "iteration": 7,
+    "cum_time_s": 0.1816389000741765,
+    "best_verified_mass": 15.700000000000001
+   },
+   {
+    "iteration": 8,
+    "cum_time_s": 0.18180550006218255,
+    "best_verified_mass": 15.700000000000001
+   },
+   {
+    "iteration": 9,
+    "cum_time_s": 0.242107400088571,
+    "best_verified_mass": 13.659
+   },
+   {
+    "iteration": 10,
+    "cum_time_s": 0.24217780004255474,
+    "best_verified_mass": 13.659
+   },
+   {
+    "iteration": "final",
+    "cum_time_s": 0.24230849999003112,
+    "best_verified_mass": 13.659
+   }
+  ],
+  "mesh_check_acceptance": "accepted",
+  "borderline": false
+ }
+]

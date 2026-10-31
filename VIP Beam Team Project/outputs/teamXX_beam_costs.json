@@ -1,0 +1,13 @@
+{
+ "startup_s_this_session": 0.050529600004665554,
+ "startup_s_verification_session": 0.05028670001775026,
+ "shared_verification_s": 0.5210431999294087,
+ "final_mesh_checks_s": 0.1444465999957174,
+ "search_and_confirmation_s": 0.7879949996713549,
+ "project_total_s": 1.5543010996188968,
+ "llm_model": "stub",
+ "temperature": 0.0,
+ "max_tokens": 500,
+ "mock_backend": true,
+ "stub_llm": true
+}
